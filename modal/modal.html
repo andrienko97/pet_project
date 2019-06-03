@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./modal.css">
+   
+</head>
+
+<body>
+    <div id="modal">
+        <div class="modal-header">
+            <button class="modal-close-btn">X</button>
+        </div>
+        <div class="modal-content">
+            <input class="modal-content-input" name="keyStr" type="text" placeholder="Поиск в Google..">
+        </div>
+
+            <select id="engine-select" >
+                <option value="https://www.google.com.ua/search?q=">Google</option>
+                <option value="https://www.bing.com/search?q=">Bing</option>
+                <option value="https://search.yahoo.com/search?p=">Yahoo</option>
+            </select> 
+ 
+        <div class="modal-footer">
+            <div class="modal-footer-btn-wrapper">
+                <button name="submit" class="modal-footer-btn">ok</button>
+            </div>
+        </div>
+    </div>
+       <button class="openBtn">Открыть</button>
+</body>
+<script src="./modal.js"></script>
+</html>

@@ -1,0 +1,68 @@
+#modal {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    height: 200px;
+    width: 400px;
+    background-color: wheat;
+    display: block;
+}
+
+.modal-content-input {
+    position: absolute;
+    padding-left: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 80%;
+}
+#engine-select{
+    position: absolute;
+    height: 20px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    width: 86%;
+}
+
+.modal-header {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+
+.modal-close-btn {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.modal-footer {
+    position: absolute;
+    top: 200px;
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.modal-footer-btn-wrapper {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.openBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px 30px;
+    background-color: greenyellow;
+    font-size: 16px;
+    display: none;
+}

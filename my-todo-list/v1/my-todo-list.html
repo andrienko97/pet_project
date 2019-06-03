@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyToDoList</title>
+    <link rel="stylesheet" href="./my-todo-list.css">
+</head>
+
+<body>
+    <div class="list-wrapper">
+        <div class="list-header">
+            <div class="list-title">My To Do List</div>
+            <div class="list-controls">
+                <input id="list-controls-task-title" type="text" placeholder="Title..." />
+                <button id="list-controls-task-add-btn">Add</button>
+            </div>
+        </div>
+        <div id="tasks-list">
+            <div class="task-item">
+                <div class="task-item-title">Тестовая задача</div>
+                <div class="task-item-close-btn"></div>
+            </div>
+            <div class="task-item task-item-closed">
+                <div class="task-item-title">Законченная задача</div>
+                <div class="task-item-close-btn"></div>
+            </div>
+            <div class="task-item">
+                <div class="task-item-title">Ещё одна задача</div>
+                <div class="task-item-close-btn"></div>
+            </div>
+            <div class="task-item">
+                <div class="task-item-title">Новая задача</div>
+                <div class="task-item-close-btn"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./my-todo-list.js"></script>
+</body>

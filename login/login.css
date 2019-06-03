@@ -1,0 +1,35 @@
+.login-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-header {
+    height: 30px;
+    background-color: #f5f5f5;
+}
+
+.login-header-text {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-items {
+    display: block;
+    width: 70%;
+    margin: 20px 15%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#login-submit-btn {
+    background-color: #58b957;
+    color: white;
+}
